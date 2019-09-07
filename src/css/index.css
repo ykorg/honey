@@ -1,0 +1,251 @@
+.bgimg{
+  width:100%;
+  height:100%;
+  position:fixed;
+  top : 0px;
+  z-index:-1;
+
+}
+
+.farmHead{
+    padding-top:40px;
+    text-align: center;
+    background-color:white;
+    
+}
+.headtitle{
+  left:0px;
+  right:0px;
+  font-size:22px;
+  color: black;
+  text-align:center;
+  font-weight:bold;
+}
+.headline{
+  background:#000000;
+  height:1px;
+  width:65%;
+  margin:0 auto;
+  margin-top:30px;
+}
+.ant-anchor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top:20px;
+  margin-bottom:40px;
+  width:100%;
+  justify-content: center;
+}
+.navigationItem{
+  font-size:15px;
+  padding-left:15px;
+  font-weight:400;
+}
+
+.ant-anchor-link-title, .ant-anchor-link-title:hover, .ant-anchor-link-title:active{
+  color:#000;
+  text-decoration:none;
+}
+.ant-anchor-wrapper{
+  display: flex;
+  justify-content:center;
+}
+.honey-introduce{
+  margin-top:550px;
+  background:#fff;
+  padding-bottom:5vh;
+  overflow:hidden;
+}
+
+.honey-headtitle{
+  margin-bottom:50px;
+  padding-top:50px;
+  font-size:32px;
+  color: black;
+  text-align:center;
+  background:white;
+  font-weight:800;
+}
+
+.product-introduce-subtitle{
+  width:100%;
+  background:white;
+  font-size:18px;
+  text-align:center;
+  margin-top:10px;
+  font-weight:500;
+}
+
+.info-content{
+  display:flex;
+  width:100%;
+  background:#fff;
+}
+
+.info-detail-left{
+  width:45%;
+  background:#ebd7d733;
+  /* padding : 10px; */
+  margin-right:1%;
+  margin-left:4%;
+
+}
+
+.info-detail-right{
+  width:45%;
+  background:#ebd7d733;
+  /* padding : 10px; */
+  margin-left: 1%;
+  margin-right:4%;
+}
+
+.product-introduce{
+  width:100%;
+  background:white;
+  text-align: center;
+}
+
+.product-introduce .honey-headtitle{
+  position:relative;
+  margin-bottom:0.1vh;
+}
+
+/*
+* 9 宫格
+*/
+.elementContain{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:70%;
+  margin:0 auto;
+  margin-top:10px;
+}
+
+.element{
+  background: white;
+  width: 33.3%;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.goodsDetailTitle{
+  font-size:2vw;
+  width:80%;
+  padding:20px;
+  font-weight: 600;
+}
+
+.goodsDetailImg{
+  width: 80%;
+}
+
+.connect{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:#fff;
+  padding-top:5vh;
+
+}
+
+.connect-form{
+  width:90%;
+  margin:0 auto;
+}
+
+/*ConnectUS*/
+.connect-headtitle{
+  left:0px;
+  right:0px;
+  font-size:4vh;
+  color: black;
+  text-align:center;
+  background:white;
+  margin-bottom:5vh;
+  font-weight:800;
+}
+
+.connect-input-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 5vh;
+}
+.ant-input{
+  margin-right: 2%;
+  padding:15px 10px;
+  border:none;
+  outline:none;
+  width:49%;
+  border-bottom:1px solid #333;
+}
+
+.connect-input-container:last-child{
+  margin-right:0;
+}
+
+.ant-input:focus{
+  outline: none;  
+}
+
+.error{
+  color:red;
+}
+
+.connect-input-container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 5vh;
+}
+.connect-input-container1 .ant-input{
+  width:100%;
+}
+.connect-input-container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 5vh;
+}
+
+.connect-input-container2 .ant-input{
+  width:100%;
+}
+
+.about{
+  width :100%;
+  text-align: center;
+  background:white;
+  padding-top:50px;
+}
+
+.about-img{
+  width:30%;
+  border-radius:50%;
+
+}
+
+.about-text{
+  padding:0 10px;
+}
+
+.about-button{
+  background:#333;
+  color:#fff;
+  width:150px;
+  height:50px;
+  margin-bottom:150px;
+  border:none;
+}
+.about-button:focus{
+   outline:none;
+}
+
+.about-bottom{
+  margin : 0 auto;
+  padding-bottom:50px;
+}
